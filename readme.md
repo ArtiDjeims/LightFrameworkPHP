@@ -36,7 +36,14 @@ Want to contribute or make your own project? Great!
 Both Controller and Model folders have sample files inside. 
 Sample file gives you the basic usage template. 
 
-Every model declares the **app** variable:
+To create a model, view or a controller, set the name of the file, to match the next template: **<name><type>.php**
+**Example**: 
+<modelName>Model.php, <controllerName>Controller.php, <viewName>View.php
+
+So if we want to make a /**test** page on our website, simply create:
+**test**model.php, **test**Controller.php, **test**View.php
+
+Every model declares an **app** variable:
 ```php
 global $app;
 $app = new <modelName>();
