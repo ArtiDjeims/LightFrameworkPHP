@@ -38,11 +38,11 @@ Sample file gives you the basic usage template.
 
 To create a model, view or a controller, set the name of the file, to match the next template: **nameType**.php
   
-**Example**: 
+Example:
 **modelName**Model.php, **controllerName**Controller.php, **viewName**View.php
 
 So if we want to make a /**test** page on our website, simply create:
-**test**model.php, **test**Controller.php, **test**View.php
+**test**Model.php, **test**Controller.php, **test**View.php
 
 Every model declares an **app** variable:
 ```php
