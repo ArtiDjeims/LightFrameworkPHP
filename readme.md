@@ -37,6 +37,7 @@ Both Controller and Model folders have sample files inside.
 Sample file gives you the basic usage template. 
 
 To create a model, view or a controller, set the name of the file, to match the next template: **<name><type>.php**
+  
 **Example**: 
 <modelName>Model.php, <controllerName>Controller.php, <viewName>View.php
 
