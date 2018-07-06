@@ -1,0 +1,55 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0e0e0e;
+    color: white;
+}
+.header{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.logo{
+    float: left;
+    background: #d4d0d0;
+    color: black;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+.menu{
+    float: right;
+}
+.link{
+    padding: 5px 10px;
+    font-size: 20px;
+    color: white;
+}
+.content{
+    margin: 0 auto;
+    margin-top: 20%;
+    text-align: center;
+    animation: smooth 1.5s;
+}
+.footerLink{
+    position: fixed;
+    bottom: 3%;
+    color: gray;
+    font-size: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h1{
+    font-size: 130px;
+}
+span{
+    font-weight: 100;
+}
+a {
+    text-decoration: none;
+}
+
+/* Animations */
+@keyframes smooth {
+    from { transform: scale(0); opacity: 0;}
+    to   { transform: scale(1); opacity: 1;}
+}
